@@ -1,5 +1,11 @@
 # MiAI_FaceRecog_3
 Nhận diện khuôn mặt khá chuẩn xác bằng MTCNN và Facenet!
+chạy trong môi trường Python 3.7 
+tải Anaconda > Environ...> CreatireaceRecog_3
+Nhận diện khuôn mặt khá chuẩn xác bằng MTCNN và Facenet!
+chạy trong môi trường Python 3.7 
+tải Anaconda > Environ...> Create > py 3.7
+vào vs code > termial > code file .py > chọn môi trường góc phải > click chuột phải Run python 
 
 python src/align_dataset_mtcnn.py  Dataset/DataMask/raw Dataset/DataMask/processed --image_size 160 --margin 32  --random_order --gpu_memory_fraction 0.25
 
