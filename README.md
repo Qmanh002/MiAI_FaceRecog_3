@@ -10,9 +10,9 @@ python src/align_dataset_mtcnn.py  Dataset/FaceData/raw Dataset/FaceData/process
 trích xuất đặc trưng và train:
 python src/classifier.py TRAIN Dataset/FaceData/processed Models/20180402-114759.pb Models/facemodel.pkl --batch_size 1000
 
-file main: 
+file main:
 python src/face_rec_cam.py 
 
-cài môi trường: 
+cài môi trường:
 pip install -r requirements.txt
 
